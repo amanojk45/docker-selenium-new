@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="81.601">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testApplyRest"
+                time="81.601"
+                classname="com.avin.automation.ApplyReset">
+            </testcase>
+</testsuite>

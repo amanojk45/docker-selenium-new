@@ -1,0 +1,20 @@
+#Instructions:
+#Firmware Upgrade Automation
+###Following modules are being used:
+1. Java 8
+2. Selenium Server version 4.0.0`
+3. Testng version 7.4.0
+4. Chrome Driver
+5. Maven version 3.3
+
+###About the project :
+The project is about automating the multiple firmwares in order to test firmware upgrade/downgrade combination on respective camera.
+
+####List of the firmware's that are automated
+1. C-12_1.0.2
+2. C-12_1.1.0
+3. C-Series_2.0.6
+4. C-Series_2.0.7
+5. C-Series_2.1.4
+6. C-Series_2.1.5
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="8996" started-at="2022-04-21T09:23:47 IST" finished-at="2022-04-21T09:23:56 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8996" started-at="2022-04-21T09:23:47 IST" finished-at="2022-04-21T09:23:56 IST">
+      <class name="upgrade.automation.ApplyReset">
+        <test-method status="FAIL" signature="testApplyRest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:upgrade.automation.ApplyReset@66d33a]" name="testApplyRest" duration-ms="8959" started-at="2022-04-21T09:23:47 IST" data-provider="cam-data" finished-at="2022-04-21T09:23:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.4.86/index.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin@86]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0.2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.1.5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot find elements when the XPath is null.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:92)
+at org.openqa.selenium.By$ByXPath.<init>(By.java:287)
+at org.openqa.selenium.By.xpath(By.java:89)
+at upgrade.automation.ApplyReset.testApplyRest(ApplyReset.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.avin.test.upgrade.upgrade.TestRunner.main(TestRunner.java:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyRest -->
+      </class> <!-- upgrade.automation.ApplyReset -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

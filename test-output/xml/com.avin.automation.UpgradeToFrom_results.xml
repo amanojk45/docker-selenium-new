@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="732.510">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testUpgradeToFrom"
+                time="732.510"
+                classname="com.avin.automation.UpgradeToFrom">
+            </testcase>
+</testsuite>

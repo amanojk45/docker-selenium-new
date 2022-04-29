@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="firmwareUpgrade">
+        <test thread-count="10" name="Test1" preserve-order="true" >
+           <classes>
+            <class name="com.avin.automation.CameraUpgrade"/>
+            <class name="com.avin.automation.AddCredentials"/>
+            <class name="com.avin.automation.ApplyReset"/>
+            <class name="com.avin.automation.AddCredentials"/>
+            <class name="com.avin.automation.UpgradeToFrom"/>
+            <class name="com.avin.automation.DowngradeFromTo"/>
+           </classes>
+    </test>
+</suite>

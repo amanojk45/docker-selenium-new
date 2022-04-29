@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test1"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.000">
+    <properties></properties>
+
+            <testcase
+                name="testCameraUpgrade"
+                time="0.000"
+                classname="com.avin.automation.CameraUpgrade">
+
+            <failure type="org.testng.TestNGException" message="
+Parameter &apos;firmwareVersion&apos; is required by @Test on method testCameraUpgrade but has not been marked @Optional or defined
+in C:\Users\naveena.us\Desktop\parameter\test\testng.xml">
+                <![CDATA[org.testng.TestNGException: 
+Parameter 'firmwareVersion' is required by @Test on method testCameraUpgrade but has not been marked @Optional or defined
+in C:\Users\naveena.us\Desktop\parameter\test\testng.xml
+                org.testng.internal.Parameters.createParams(Parameters.java:289)org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)org.testng.internal.Parameters.createParameters(Parameters.java:721)org.testng.internal.Parameters.handleParameters(Parameters.java:895)org.testng.internal.Parameters.handleParameters(Parameters.java:762)org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)java.util.ArrayList.forEach(ArrayList.java:1259)org.testng.TestRunner.privateRun(TestRunner.java:770)org.testng.TestRunner.run(TestRunner.java:591)org.testng.SuiteRunner.runTest(SuiteRunner.java:402)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)org.testng.SuiteRunner.run(SuiteRunner.java:304)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)org.testng.TestNG.runSuitesLocally(TestNG.java:1102)org.testng.TestNG.runSuites(TestNG.java:1032)org.testng.TestNG.run(TestNG.java:1000)upgrade.TestRunner.main(TestRunner.java:35)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>

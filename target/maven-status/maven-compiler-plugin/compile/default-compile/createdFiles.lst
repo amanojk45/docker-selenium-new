@@ -1,0 +1,11 @@
+upgrade\automation\AddCredentials.class
+upgrade\automation\CameraUpgrade.class
+upgrade\automation\Testing.class
+upgrade\automation\UpgradeToFrom.class
+upgrade\helper\AuthHelper.class
+upgrade\automation\DowngradeFromTo.class
+upgrade\helper\LocatorHelper.class
+org\avin\test\upgrade\upgrade\TestRunner.class
+upgrade\automation\ApplyReset.class
+upgrade\ConstPath.class
+upgrade\helper\UploadFirmwareHelper.class
